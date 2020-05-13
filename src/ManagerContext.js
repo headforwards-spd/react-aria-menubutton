@@ -1,4 +1,4 @@
-const createReactContext = require('create-react-context');
+const createReactContext = require('create-react-context').default;
 
 const AriaMenuButtonManagerContext = createReactContext();
 
