@@ -2,7 +2,7 @@
   "name": "react-aria-menubutton",
   "version": "6.3.0",
   "description": "A fully accessible and flexible React-powered menu button",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
     "demo-bundle": "webpack --mode production --config ./webpack-demo.config.js",
