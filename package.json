@@ -17,6 +17,7 @@
     "build": "babel src -d dist --ignore src/__tests__",
     "prepublishOnly": "npm run umd && npm run build"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
