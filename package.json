@@ -17,6 +17,7 @@
     "build": "babel src -d dist --ignore src/__tests__",
     "prepublishOnly": "npm run umd && npm run build"
   },
+  "postinstall": "cd ./node_modules/react-aria-menubutton && yarn install && yarn build",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
